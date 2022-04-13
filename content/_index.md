@@ -1,5 +1,5 @@
 ---
-title: "Test of index instructions"
+title: "Testing, testing"
 date: 2022-04-12T12:11:48-05:00
 draft: false
 sample:
@@ -9,5 +9,6 @@ content_blocks:
     title: This title is from `content_blocks/title`
     link_url: https://cloudcannon.com
     link_text: CloudCannon
+    text: "Text in `content_blocks`"
 ---
 

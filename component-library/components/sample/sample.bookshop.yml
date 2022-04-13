@@ -2,14 +2,14 @@
 spec:
   structures:
     - content_blocks
-  label: "Sample"
+  label: "Sample label"
   description:
   icon:
   tags: []
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  text: "Hello World!"
+  text: "Hello World! This is from the sample.bookshop.yml `blueprint/text` field"
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
