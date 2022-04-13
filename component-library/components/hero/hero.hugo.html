@@ -1,2 +1,2 @@
-<p class="hero-test-style">This is from <code>component-library/components/hero/hero.hugo.html</code>.<br />
-{{ .text | markdownify }}</p>
+<h1>{{ .title | markdownify }}</h1>
+{{ partial "bookshop" (slice "button" (dict "link_url" .link_url "link_text" .link_text)) }}
