@@ -1,1 +1,3 @@
-{{ partial "bookshop_partial" (slice "page" .Params.content_blocks) }}
+{{ define "main" }}
+    {{ partial "bookshop_partial" (slice "page" .Params.content_blocks) }}
+{{ end }}
