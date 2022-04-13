@@ -1,2 +1,2 @@
-<p class="cta-test-style">This is from <code>component-library/components/cta/cta.hugo.html</code>.<br />
-  {{ .text | markdownify }}</p>
+<p class="cta-test-style">This is from <code>component-library/components/cta/cta.hugo.html</code>.{{ with .text }}<br />
+  {{ .text | markdownify }}{{ end }}</p>
