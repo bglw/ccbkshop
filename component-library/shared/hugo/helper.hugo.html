@@ -1,6 +1,8 @@
 <div>
 {{ range . }}
   {{ partial "bookshop" . }}
-  <p>This is from `helper.hugo.html`.</p>
+  <p>This is from the <code>helper.hugo.html</code> helper.<br />
+    {{ .text | markdownify }}</p>
+  <p>The helper helper (?) allows adding more.</p>
 {{ end }}
 </div>

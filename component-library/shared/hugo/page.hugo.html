@@ -1,6 +1,8 @@
 <div class="c-sample">
 {{ range . }}
   {{ partial "bookshop" . }}
-  <p>This is from <code>page.hugo.html</code>.</p>
+  <p>This is from the <code>page.hugo.html</code> helper.<br />
+    {{ .text | markdownify }}</p>
+  <p>The page helper allows adding more.</p>
 {{ end }}
 </div>
