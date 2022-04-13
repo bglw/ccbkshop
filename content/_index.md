@@ -5,11 +5,9 @@ draft: false
 sample:
   text: "Good mornin', America, how are ya?"
 content_blocks:
-  - _bookshop_name: cta
-    text: From the `CTA` component
   - _bookshop_name: hero
-    text: From the `hero` component
-  - _bookshop_name: sample
-    text: From the `sample` component
+    title: This title is from `content_blocks/title`
+    link_url: https://cloudcannon.com
+    link_text: CloudCannon
 ---
 
