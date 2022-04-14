@@ -9,10 +9,12 @@ sample:
 content_blocks:
   - _bookshop_name: hero
     title: This is our big ol' title
-    # text: Text in `content_blocks`
   - _bookshop_name: button
     link_url: https://cloudcannon.com
     link_text: CloudCannon
-    # text: Hello World! This is from the Button component.
+  - _bookshop_name: bodytext
+    text: >-
+      This is our first use of the new `Bodytext` component. Not sure what we'll
+      get, but I guess we'll see.
 ---
 
