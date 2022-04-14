@@ -1,9 +1,5 @@
 // from `hero.scss`
-.hero-test-style {
-  color: darkorchid;
-  background-color: bisque;
-  @media screen and (prefers-color-scheme: dark) {
-    color: white;
-    background-color: navy;
-  }
+.c-hero-title {
+  text-align: center;
+  letter-spacing: -0.025em;
 }
