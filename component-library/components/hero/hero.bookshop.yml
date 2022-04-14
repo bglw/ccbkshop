@@ -9,10 +9,17 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  text: "Hello World!"
+  preheading: ""
+  heading: ""
+  background_image: ""
+  link:
+    text: ""
+    url: ""
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
+  heading: "This is the heading for the component browser."
+  text: "This is text for the component browser."
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
