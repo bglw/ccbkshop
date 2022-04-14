@@ -12,5 +12,7 @@ content_blocks:
     link_url: https://cloudcannon.com
     link_text: CloudCannon
     text: Text in `content_blocks`
+  - _bookshop_name: button
+    text: Hello World! This is from the Button component.
 ---
 
