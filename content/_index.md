@@ -1,5 +1,5 @@
 ---
-title: Testing, testing
+title: Welcome to our Bookshop site
 date: 2022-04-12T17:11:48Z
 draft: false
 sample:
@@ -8,7 +8,7 @@ sample:
     entering this in CC.
 content_blocks:
   - _bookshop_name: hero
-    title: This is our big ol' title
+    hero_title: Welcome to our Bookshop site
   - _bookshop_name: button
     link_url: https://cloudcannon.com
     link_text: CloudCannon
