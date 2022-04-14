@@ -8,11 +8,11 @@ sample:
     entering this in CC.
 content_blocks:
   - _bookshop_name: hero
-    title: This title is from `content_blocks/title`
+    title: This is our big ol' title
+    # text: Text in `content_blocks`
+  - _bookshop_name: button
     link_url: https://cloudcannon.com
     link_text: CloudCannon
-    text: Text in `content_blocks`
-  - _bookshop_name: button
-    text: Hello World! This is from the Button component.
+    # text: Hello World! This is from the Button component.
 ---
 
