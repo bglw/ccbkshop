@@ -16,5 +16,8 @@ content_blocks:
     text: >-
       This is our first use of the new `Bodytext` component. Not sure what we'll
       get, but I guess we'll see.
+  - _bookshop_name: button
+    link_url: https://cloudcannon.com
+    link_text: CloudCannon
 ---
 
