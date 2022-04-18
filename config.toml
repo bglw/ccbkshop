@@ -1,6 +1,7 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
+_enabled_editors = ["visual", "content"]
 
 [module]
 replacements = "components.local -> ../component-library"
